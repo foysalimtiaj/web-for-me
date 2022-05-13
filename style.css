@@ -1,0 +1,64 @@
+.font-b{
+    font-weight: 900;
+    text-decoration: none;
+    color: black; 
+    list-style: none;
+  }
+  .font-dorpdown{
+    width: 250px;
+  }
+  .carousel-1st{
+      margin-top: 180px;
+      background-image: url(images/carousel-1st\ background.png);
+      width: 85%;
+      height: 600%;
+      margin-left: 7.5%;
+      box-shadow: 5px 10px 10px rgb(36, 34, 34);
+  }
+  .carousel-item{
+      
+      text-align: center;
+      padding: 5% 10%;
+      
+
+  }
+  .carousel-pic{
+      height: auto ;
+      width: 70%;
+      border-radius: 20px;
+      box-shadow: 7px 13px 15px black;
+  }
+  .col{
+      box-shadow: 10px 12px 14px rgb(34, 34, 34);
+  }
+  .card-1st{
+      margin-top: 150px  ;
+      padding: 10px 15px;
+      margin-left: 20px;
+  }
+.carousel-2nd{
+    margin: 80px;
+    margin-top: 200px;
+    box-shadow: 10px 12px 15px black;
+}
+.card-2nd{
+    margin: 50px 10%;
+    margin-top: 150px;
+    
+
+}
+.card-2nd .card{
+    margin: 0px 5%;
+    margin-bottom: 40px;
+    box-shadow: 10px 15px 20px rgb(38, 0, 255);
+}
+.spinning{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footer-form{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}

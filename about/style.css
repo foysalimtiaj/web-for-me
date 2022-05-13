@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(90deg, rgb(216, 228, 227) , rgb(228, 2, 107));
+    
+    
+}
+nav{
+    height: 70px;
+    width: 100%;
+}
+.logo {
+     
+     cursor: pointer;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+nav{
+    height: 70px;
+    display: flex;
+  
+    justify-content: space-between;
+    
+}
+.menu-list li{
+    list-style: none;
+    display: inline block;
+    
+    width: 100px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    margin-right: 50px;
+   
+
+}  
+
+
+
+.menu-list li ul li{
+    margin-right: 60%;
+}
+
+
+
+.menu-list li ul{
+    display: none
+}
+.menu-list li ul li{
+    width: 200%;
+
+}
+.menu-list li ul li ul li{
+    width: 300%;
+}
+.menu-list li:hover > ul{
+    display: block;
+}
+.menu-list li a:hover{
+    color: rgb(188, 255, 2);
+    transition: 3s;
+    font-weight: 800;
+    
+    
+}
+
+.menu-list li ul li{
+    position: relative;
+}
+
+.menu-list li ul li ul{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+form input , button{
+    padding: 10px 12px;
+    border-radius: 8px;
+    
+}
+form{
+    margin-right: 20px;
+}

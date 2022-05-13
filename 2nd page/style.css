@@ -1,0 +1,11 @@
+.first{
+    height: 400px;
+    width: 60%;
+    border: 10px solid red;
+    margin-left: 20%;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 15px 20px 30px black;
+}
