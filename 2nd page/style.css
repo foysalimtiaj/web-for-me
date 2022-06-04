@@ -1,11 +1,68 @@
-.first{
-    height: 400px;
-    width: 60%;
-    border: 10px solid red;
-    margin-left: 20%;
-    font-size: 30px;
-    color: red;
-    text-align: center;
+.logo-hi{
+    height: 50px;
+}
+h2 ,h5{
+margin-top: 50px;
+}
+.snd-part{
+background-image: url(hot-gadgets/bg-2.png);
+background-repeat: no-repeat;
+background-position-x: left;
+background-position-y: bottom; 
+}
+.in-parts{
+    width: 40%;
+    margin-left: 60% ;
+}
+.in-partf{
+    color: beige;
+    width: 20%;
+}
+.buy-now-button{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: orange;
+}
+.cars-bg{
+    background-image: url(hot-gadgets/bg-1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 5%;
+    text-align: justify;
+} 
+.cars-bg h1,h6{
+    margin-bottom: 20px;
+}
+.see-all{
+    display: flex;
+    justify-content: end;
+    color: orange;
+    margin-top: 50px;
+}
+.product-buy-now-button{
+    width: 100px;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+.card-my{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 2px 4px 5px black;
     border-radius: 20px;
-    box-shadow: 15px 20px 30px black;
+}
+.hr-stylee{
+    border: 5px solid red;
+    width: 70px;
+    border-bottom: none;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+}
+.card-my-l{
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px black;
 }
