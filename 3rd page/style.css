@@ -1,12 +1,46 @@
-.first{
-    height: 400px;
-    width: 60%;
-    border: 10px solid red;
-    background-color: blue;
-    margin-left: 20%;
-    font-size: 30px;
-    color: rgb(235, 194, 11);
-    text-align: center;
+.start{
+    width: 85%;
+    height: 576px;
+    background-color: #f0fff0;
+    margin: auto;
+}.logo-f{
+    height: 50px;
+    margin-left: 30%;
+    
+}
+.fimg{
+    margin: right 100px ;
+    width: 70%;
+    margin-top: 5%;
+}
+li a{
+    color: black;
+}
+.ami{
+    margin-top: 100px;
+    margin-left: 13%;
+}
+.snd{
+    margin: 50px 15%;
+}
+.Border-radius{
     border-radius: 20px;
-    box-shadow: 15px 20px 30px black;
+}
+.icon-text{
+    width: 15px;
+}
+.card-f{
+    padding-top: 30px ;
+    display: flex;
+    justify-content: space-between;
+}
+.online{
+    margin-bottom: 50px ;
+    
+}
+.foot{
+    background-color: #282531;
+}
+.text-d{
+    text-decoration: none;
 }
