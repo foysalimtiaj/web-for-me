@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(186, 210, 247);
+}
+header{
+    background-color: #562EFF ;
+    display: flex;
+    justify-content: space-between;
+     height: 90px;
+     position: relative;
+}
+@media screen and (max-width: 900px ) {
+    header{
+        height: 250px;
+    }
+}
+header a{
+    display:flex;
+    text-decoration: none;
+    margin-left: 20%;
+    
+}
+@media  screen and (max-width:900px) {
+    header a{
+        margin-left: 0;
+    }
+    
+}
+header img{
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+@media  screen and (max-width:900px) {
+    header img{
+        
+        width: 130px;
+    }
+}
+.brand-name{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+
+}
+@media screen and (max-width:900px) {
+    .brand-name{
+        margin-top: 100px;
+    }
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+    
+} 
+@media screen and (max-width: 900px){
+    .nav-link{
+         display: block;
+    }
+}
+
+.nav{
+    margin-right: 20%;
+    margin-top: 15px;
+    color: aliceblue;
+}
+.nav-link li{
+    margin: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+ @media screen and (max-width:900px) {
+    .nav-link  {
+        position: absolute;
+        bottom: 30px;
+        
+    }
+    
+}
+.nav-img{
+    height: 51px;
+    width:51px; 
+     margin-top: -5px;
+    
+    
+}
+@media screen and (max-width:900px) {
+    .nav-img{
+        position: absolute;
+        top:-60px
+    }
+    
+}
+.top-p{
+    margin: 20px 20%;
+    background-color: white ;
+    padding: 20px;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    
+}
+.top-p h2{
+    text-transform: uppercase;
+    color: rgb(255, 0, 43);
+
+}
+.player-img{
+    width: 56px;
+    
+}
+.top-p ul li a{
+
+
+    display: flex;
+    align-items: center;
+}
+.top-p ul li a img{
+   margin: 15px;
+}
+.top-p ul{
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+ 
+}
+@media screen and (max-width: 992px)  {
+    .top-p ul{
+        grid-template-columns: 50% 50%;
+    }  
+}
+@media screen and ( max-width: 720px) {
+    .top-p ul{
+        grid-template-columns: 100%;
+    }
+    
+}
+    
+
+.top-p ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media  screen and (max-width: 1000px ) {
+    .container{
+        grid-template-columns: 100%;
+    } 
+}
+
+.top-b{
+    margin: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.top-b-img{
+    width: 177px;
+    height: 117px;
+    margin: 0 10px;
+}
+@media  screen and (max-width: 720px) {
+    .top-b-img{
+        width: 100px;
+        height: 60px ;
+    }
+    
+}
+ .top-b div h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+} 
+.name-high{
+    color: #562EFF;
+}
+.container-2{
+    margin: 20px 20%;
+    padding: 20px;
+    background-color: rgb(245, 240, 235);
+}
+.container-2 h2{
+    color: #562EFF;
+    text-transform: uppercase;
+}
+.course-img{
+    width: 100%;
+    height: 107px;
+}
+.star img{
+    width: 10px;
+}
+.lates-c{
+    margin: 10px;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+@media screen and (
+    max-width: 1300px) {
+        .lates-c{
+            grid-template-columns: 50% 50%;
+        }
+    
+}
+@media screen and (
+    max-width: 900px) {
+        .lates-c{
+            grid-template-columns: 80%;
+        }
+
+    
+}
+
+.course-card{
+    border: 1px solid rgb(228, 215, 215);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+.card-foot{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-foot button{
+    width: 95px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #ED6B4F;
+    border: none;
+    border-radius: 15px;
+}
+.card-foot button img{
+    width: 19px;
+}
